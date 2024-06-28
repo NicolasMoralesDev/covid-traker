@@ -8,7 +8,7 @@ import Blog1 from './assets/images/blog-1.jpg';
 import Blog2 from './assets/images/blog-2.jpg';
 import Blog3 from './assets/images/blog-3.jpg';
 import { Section5,Section6, Section7,Titulos } from "./styled/styledSections";
-
+import Navbar from "./Components/navbar/Navbar";
 
 
 const Home = () =>{
@@ -16,6 +16,9 @@ const Home = () =>{
         <>
             <GlobalStyle/>
             <>
+            <nav>
+                <Navbar/>
+            </nav>
                 <>
                 <Titulos>
                 <h2>Faqs</h2>
